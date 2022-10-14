@@ -63,7 +63,9 @@
     .banner {
         max-height: inherit
     }
-
+    .discover-banner-2{
+        max-height: 572px;
+    }
     .discover-main, .d-img-block {
         display: block;
     }

@@ -45,7 +45,11 @@
     margin-top: 60px;
 }
 
-
+@media(max-width:767px){
+    .mt-40{
+        margin-top: 40px;
+    }
+}
 
 
 

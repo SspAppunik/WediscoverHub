@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" routerLink="/">
                 <img src="https://wediscoverhub.com/images/logo.png?1" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -12,22 +12,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-22">
-                        <a routerLink="/" class="nav-link active nav-tab home-page" aria-current="page">Home</a>
+                        <a routerLink="/" class="nav-link nav-tab" aria-current="page" [ngClass]="statusClass0" (click)="setActiveClass0()">Home</a>
                     </li>
                     <li class="nav-item me-22">
-                        <a routerLink="/WeDiscover" class="nav-link nav-tab">We Discover</a>
+                        <a routerLink="/WeDiscover" class="nav-link nav-tab" [ngClass]="statusClass" (click)="setActiveClass()">We Discover</a>
                     </li>
                     <li class="nav-item me-22">
-                        <a class="nav-link nav-tab" routerLink="/WeMeet">We Meet</a>
+                        <a class="nav-link nav-tab" routerLink="/WeMeet" [ngClass]="statusClass1" (click)="setActiveClass1()">We Meet</a>
                     </li>
                     <li class="nav-item me-22">
-                        <a class="nav-link nav-tab" routerLink="/WeShop">We Shop</a>
+                        <a class="nav-link nav-tab" routerLink="/WeShop" [ngClass]="statusClass2" (click)="setActiveClass2()">We Shop</a>
                     </li>
                     <li class="nav-item me-22">
-                        <a class="nav-link nav-tab" routerLink="/WeIntro">We Intro</a>
+                        <a class="nav-link nav-tab" routerLink="/WeIntro" [ngClass]="statusClass3" (click)="setActiveClass3()">We Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-tab" routerLink="/WeGrow">We Grow</a>
+                        <a class="nav-link nav-tab" routerLink="/WeGrow" [ngClass]="statusClass4" (click)="setActiveClass4()">We Grow</a>
                     </li>
                 </ul>
                 <form class="d-flex form-items" role="search">

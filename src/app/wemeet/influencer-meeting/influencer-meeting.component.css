@@ -56,7 +56,20 @@
 /* .users{
 
 } */
-
+@media (max-width:767px){
+    .green-bg::after{
+        content: '';
+        position: absolute;
+        top: 240px;
+        bottom: 0;
+        left: 80%;
+        right: 0;
+        background: transparent linear-gradient(196deg, #BECA32 0%, #F6FF8A 100%) 0% 0% no-repeat padding-box;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+}
 
 
 

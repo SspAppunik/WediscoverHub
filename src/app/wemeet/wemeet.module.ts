@@ -7,7 +7,6 @@ import { WemeetRoutingModule } from './wemeet-routing.module';
 
 @NgModule({
   declarations: [
-
   ],
   imports: [
     CommonModule,

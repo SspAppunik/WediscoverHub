@@ -21,7 +21,9 @@
     padding: 16px 54px;
     margin-top: 50px;
 }
-
+.mt-20{
+    margin-top: 20px;
+}
 
 
 @media (max-width:767px){

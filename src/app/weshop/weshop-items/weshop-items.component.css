@@ -50,6 +50,14 @@
     margin-top: 92px;
 }
 
+@media (max-width:767px){
+    .mt-92{
+        margin-top: 50px;
+    }
+    .mt-40{
+        margin-top: 40px;
+    }
+}
 
 
 
