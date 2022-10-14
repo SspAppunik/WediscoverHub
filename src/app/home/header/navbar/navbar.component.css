@@ -1,0 +1,80 @@
+header {
+    padding: 33px 0;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.me-22 {
+    margin-right: 22px;
+}
+
+.search-img {
+    height: 33px;
+    width: 33px;
+}
+
+.form-items {
+    align-items: center;
+    justify-content: center;
+}
+
+.influencer {
+    padding: 16px 32px;
+    margin-left: 20px;
+}
+
+.search-tab {
+    max-width: 100px;
+}
+
+.navbar-nav .home-page {
+    color: #1A92CF;
+    font-weight: 500;
+    border-bottom: 2px solid #1A92CF;
+}
+
+.login {
+    margin-left: 10px;
+}
+
+@media (min-width:993px) and (max-width:1199px){
+    .logo {
+        margin-right: 10px;
+    }
+    
+    .me-22 {
+        margin-right: 7px;
+    }
+
+    .login {
+        margin-left: 0;
+        padding: 6px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-tab{
+        font-size: 14px;
+        padding: 8px 2px;
+    }
+    .search-img{
+        display: none;
+    }
+}
+
+@media (min-width:1199px) and (max-width:1400px){
+    .logo {
+        margin-right: 10px;
+    }
+    
+    .me-22 {
+        margin-right: 7px;
+    }
+    .influencer {
+        margin-left: 10px;
+    }
+    .login {
+        margin-left: 0;
+    }
+}

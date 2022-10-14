@@ -1,0 +1,129 @@
+/* @import "~swiper/css"; */
+/* @import "~swiper/css/pagination";
+@import "~swiper/css/navigation"; */
+
+.card-images{
+    margin-top: 150px;
+    padding: 100px 50px 0;
+}
+.swiper-wrapper{
+    height: 440px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide .sliders{
+    width: 100%;
+    margin-right: 0;
+}
+
+.sliders{
+    position: relative;
+}
+.slider-text{
+    position: absolute;
+    bottom: 70px;
+    left: 35px;
+    color: white;
+}
+
+.view{
+    color: white;
+}
+
+.card-img1{
+    width: 100%;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 0;
+}
+.swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+}
+.swiper-button-prev{
+    left: 0;
+    height: 40px;
+    background-color: #1A92CF; 
+    color: white; 
+    border-radius: 6px;
+    width: 35px;
+}
+.swiper-button-next{
+   right: 0;
+   height: 40px;
+   background-color: #1A92CF; 
+   color: white;
+   border-radius: 6px; 
+   width: 35px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+
+@media (max-width:767px){
+    .card-images{
+        margin-top: 0;
+    }
+     .sliders{
+        width: 100% !important;
+        margin-right: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .carousel-img{
+    padding: 0 50px;
+}
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-prev .carousel-control-prev-icon:active,
+.carousel-control-prev .carousel-control-prev-icon:focus,
+.carousel-control-prev .carousel-control-prev-icon:hover{
+    background-color: #1A92CF;
+    border-radius: 20%;
+    opacity: 1;
+}
+
+.carousel-control-next .carousel-control-next-icon,
+.carousel-control-next .carousel-control-next-icon:active,
+.carousel-control-next .carousel-control-next-icon:focus,
+.carousel-control-next .carousel-control-next-icon:hover{
+    background-color: #1A92CF;
+    border-radius: 20%;
+    opacity: 1;
+}
+.carousel-item{
+    display: block;
+}
+.carousel-control-prev{
+    justify-content: start;
+    left: 40px;
+    width: 48px;
+}
+.carousel-control-next{
+    justify-content: end;
+    width: 48px;
+} */
+
+
+
